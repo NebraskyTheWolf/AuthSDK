@@ -3,8 +3,8 @@
 namespace Fluffici\SDK\Auth;
 
 use Exception;
-use Fluffici\SDK\AuthSDK;
 use Httpful\Request;
+use Fluffici\SDK\AuthSDK;
 
 class Authorize
 {
