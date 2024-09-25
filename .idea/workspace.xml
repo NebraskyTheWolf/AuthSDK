@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7c737acb-6333-4ba5-9c4f-8709d98ffb57" name="Changes" comment="Implement PSR-4 autoloading and expand testing suite&#10;&#10;The changes introduce PSR-4 autoloading for main library and development files in composer.json. The core SDK files have been moved to the new src/SDK directory to better suit the new autoloading scheme. In addition, several test cases for the AuthSDK, Authorize, and TemporaryCredentials classes have been added to ensure the proper functioning and behavior of the SDK. The 'phpunit/phpunit' package was also added to the development dependencies to facilitate the running of these tests." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="awq3n7un" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="H:\php-8.3.0-nts-Win32-vs16-x64\php.exe" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2dN7i7IDdYgWcVUC4hfUCvES035" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.laravel-idea.update-module-directories&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;H:/Fluffici Project/SDKs/AuthSDK&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\Fluffici Project\SDKs\AuthSDK" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\Fluffici Project\SDKs\AuthSDK\API\Auth" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-php-predefined-ba97393d7c68-6f8e3395a2b4-com.jetbrains.php.sharedIndexes-PS-233.14808.18" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c737acb-6333-4ba5-9c4f-8709d98ffb57" name="Changes" comment="" />
+      <created>1709836806799</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709836806799</updated>
+      <workItem from="1709836807840" duration="4591000" />
+      <workItem from="1709993402516" duration="2884000" />
+      <workItem from="1710006911011" duration="1318000" />
+      <workItem from="1710443470035" duration="1372000" />
+      <workItem from="1711050467364" duration="19000" />
+      <workItem from="1711389611948" duration="13000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add Fluffici authentication SDK&#10;&#10;The commit introduces the Fluffici authentication SDK which allows user authorization via OAuth. A helper class Authorize SDK was also created to handle requesting authentication and constructing URLs with specific query parameters. An AuthSDK class, to retrieve and manage client details, and a TemporaryCredentials class, to hold the authentication result and grant type, have also been added. Lastly, the required dependencies in the composer.json file and a brief README were added to explain the SDK usage and its importance.">
+      <option name="closed" value="true" />
+      <created>1709838566127</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709838566127</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Implement PSR-4 autoloading and expand testing suite&#10;&#10;The changes introduce PSR-4 autoloading for main library and development files in composer.json. The core SDK files have been moved to the new src/SDK directory to better suit the new autoloading scheme. In addition, several test cases for the AuthSDK, Authorize, and TemporaryCredentials classes have been added to ensure the proper functioning and behavior of the SDK. The 'phpunit/phpunit' package was also added to the development dependencies to facilitate the running of these tests.">
+      <option name="closed" value="true" />
+      <created>1709840333377</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709840333377</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Fluffici authentication SDK&#10;&#10;The commit introduces the Fluffici authentication SDK which allows user authorization via OAuth. A helper class Authorize SDK was also created to handle requesting authentication and constructing URLs with specific query parameters. An AuthSDK class, to retrieve and manage client details, and a TemporaryCredentials class, to hold the authentication result and grant type, have also been added. Lastly, the required dependencies in the composer.json file and a brief README were added to explain the SDK usage and its importance." />
+    <MESSAGE value="Implement PSR-4 autoloading and expand testing suite&#10;&#10;The changes introduce PSR-4 autoloading for main library and development files in composer.json. The core SDK files have been moved to the new src/SDK directory to better suit the new autoloading scheme. In addition, several test cases for the AuthSDK, Authorize, and TemporaryCredentials classes have been added to ensure the proper functioning and behavior of the SDK. The 'phpunit/phpunit' package was also added to the development dependencies to facilitate the running of these tests." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement PSR-4 autoloading and expand testing suite&#10;&#10;The changes introduce PSR-4 autoloading for main library and development files in composer.json. The core SDK files have been moved to the new src/SDK directory to better suit the new autoloading scheme. In addition, several test cases for the AuthSDK, Authorize, and TemporaryCredentials classes have been added to ensure the proper functioning and behavior of the SDK. The 'phpunit/phpunit' package was also added to the development dependencies to facilitate the running of these tests." />
+  </component>
+</project>
